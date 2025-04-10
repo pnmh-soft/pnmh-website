@@ -6,7 +6,7 @@ import Footer from "~/components/organisms/footer.vue";
 <template>
   <UApp>
     <Navbar/>
-    <slot/>
+    <NuxtPage />
     <Footer/>
   </UApp>
 </template>
