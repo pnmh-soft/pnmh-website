@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <h1>pNmH soft</h1>
-  </div>
+  <UApp>
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
+  </UApp>
 </template>
