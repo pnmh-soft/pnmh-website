@@ -3,7 +3,7 @@ import Heading from "~/components/atoms/typography/heading.vue";
 </script>
 
 <template>
-  <heading>Navbar</heading>
+  <heading>Footer</heading>
 </template>
 
 <style scoped>
