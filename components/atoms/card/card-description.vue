@@ -1,11 +1,13 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <h1>
+  <p class="text-sm text-left leading-7">
     <slot/>
-  </h1>
+  </p>
 </template>
 
 <style scoped>
+
 </style>
