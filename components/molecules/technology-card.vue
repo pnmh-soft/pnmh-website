@@ -3,14 +3,11 @@ import CardTitle from "~/components/atoms/card/card-title.vue";
 import CardHeading from "~/components/atoms/card/card-heading.vue";
 import CardDescription from "~/components/atoms/card/card-description.vue";
 
-const props = defineProps({
-  key: Number,
+defineProps({
   name: String,
   logo: String,
   description: String,
 });
-
-const uCardStyle = ``;
 </script>
 
 <template>
