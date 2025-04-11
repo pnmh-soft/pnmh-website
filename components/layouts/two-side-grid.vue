@@ -2,9 +2,9 @@
 </script>
 
 <template>
-  <h1>
+  <div class="grid xl:grid-cols-2 gap-3">
     <slot/>
-  </h1>
+  </div>
 </template>
 
 <style scoped>
