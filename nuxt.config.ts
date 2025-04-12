@@ -1,7 +1,17 @@
 export default defineNuxtConfig({
     compatibilityDate: "2024-11-01",
-    devtools: {enabled: true},
+    devtools: {
+        enabled: true
+    },
     pages: true,
+    app: {
+        head: {
+            title: 'software development | pNmH soft',
+            htmlAttrs: {
+                lang: 'pl',
+            },
+        }
+    },
     modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/fonts", "@nuxt/image", "@nuxt/icon"],
     css: [
         "~/assets/css/main.css",
