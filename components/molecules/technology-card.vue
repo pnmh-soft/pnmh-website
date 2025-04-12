@@ -11,10 +11,12 @@ defineProps({
 </script>
 
 <template>
-  <UCard class="xl:flex inset-shadow-sm">
+  <UCard class="flex inset-shadow-sm">
     <CardHeading>
       <Icon :name="logo" class="mr-4"/>
-      <CardTitle>{{ name }}</CardTitle>
+      <CardTitle>
+        {{ name }}
+      </CardTitle>
     </CardHeading>
     <CardDescription>
       {{ description }}
