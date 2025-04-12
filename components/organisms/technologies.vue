@@ -15,6 +15,3 @@ import technologies from "~/assets/data/technologies.json";
     />
   </TwoSideGrid>
 </template>
-
-<style scoped>
-</style>

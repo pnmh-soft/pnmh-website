@@ -1,15 +1,17 @@
 <script setup lang="ts">
-import Technologies from "~/components/organisms/technologies.vue";
+import HeroLayout from "~/components/layouts/hero-layout.vue";
+import Hero from "~/components/organisms/hero.vue";
 import TwoSideGrid from "~/components/layouts/two-side-grid.vue"
-import TechnologyDescriptionFlex from "~/components/layouts/technology-description-flex.vue";
-import technologiesDescription from "~/assets/data/technologies-description.json";
+import Technologies from "~/components/organisms/technologies.vue";
+import TechnologiesDescription from "~/components/organisms/technologies-description.vue";
 </script>
 
 <template>
-  <TwoSideGrid class="my-32">
-    <TechnologyDescriptionFlex>
-      {{ technologiesDescription.value }}
-    </TechnologyDescriptionFlex>
+  <HeroLayout>
+    <Hero/>
+  </HeroLayout>
+  <TwoSideGrid>
+    <TechnologiesDescription/>
     <Technologies/>
   </TwoSideGrid>
 </template>
