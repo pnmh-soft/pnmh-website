@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import Heading from "~/components/atoms/typography/heading.vue";
+import AnimatedLogo from "~/components/molecules/animated-logo.vue";
+import Center from "~/components/atoms/helper/center.vue";
 </script>
 
 <template>
-  <heading>Hero</heading>
+  <Center>
+    <AnimatedLogo/>
+  </Center>
 </template>
-
-<style scoped>
-</style>
