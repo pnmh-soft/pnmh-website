@@ -18,7 +18,7 @@ import Center from "~/components/atoms/helper/center.vue";
       </div>
     </div>
     <div class="-translate-x-10 translate-y-10.5">
-      <p class="text-3xl">soft</p>
+      <p class="text-3xl select-none">soft</p>
     </div>
   </Center>
 </template>
