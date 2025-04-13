@@ -5,7 +5,8 @@ import Center from "~/components/atoms/helper/center.vue"
 </script>
 
 <template>
-  <Center class="space-x-4">
+  <USeparator :label="$t('contact')" />
+  <Center class="space-x-8">
     <NuxtLink to="https://github.com/pnmh-soft" target="_blank" class="flex">
       <RouteIcon name="i-mdi-github" />
     </NuxtLink>
