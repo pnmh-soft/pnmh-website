@@ -10,6 +10,13 @@ export default defineNuxtConfig({
             htmlAttrs: {
                 lang: 'pl',
             },
+            link: [
+                {
+                    rel: "icon",
+                    type: "image/x-icon",
+                    href: "/favicon.ico",
+                }
+            ],
         }
     },
     modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/fonts", "@nuxt/image", "@nuxt/icon"],
