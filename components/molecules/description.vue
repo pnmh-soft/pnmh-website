@@ -13,7 +13,7 @@ defineProps({
   <TextWrapper>
     <Container>
       <SectionHeading>
-        {{ heading }}
+        {{ heading }}.
       </SectionHeading>
     </Container>
     <Container>
