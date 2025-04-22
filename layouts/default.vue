@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Footer from "~/components/organisms/footer.vue";
 import MainWrapper from "~/components/layouts/main-wrapper.vue";
+import Footer from "~/components/organisms/footer.vue";
 </script>
 
 <template>

@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import MainWrapper from "~/components/layouts/main-wrapper.vue";
+import TwoSideGrid from "~/components/layouts/two-side-grid.vue";
+import Container from "~/components/atoms/helper/container.vue";
+import ContractIcons from "~/components/molecules/contract-icons.vue";
 
 const currentYear = new Date().getFullYear();
 </script>
@@ -7,7 +10,14 @@ const currentYear = new Date().getFullYear();
 <template>
   <footer class="bg-slate-700 text-white">
     <MainWrapper class="xl:p-14 py-10">
-      Copyright ©{{ currentYear }} <span class="font-black">pNmH-soft</span> {{ $t('copyrights') }}.
+      <TwoSideGrid>
+        <Container class="flex items-center">
+          Copyright ©{{ currentYear }} <span class="font-black mx-2">pNmH-soft</span> {{ $t('copyrights') }}.
+        </Container>
+        <Container>
+          <ContractIcons/>
+        </Container>
+      </TwoSideGrid>
     </MainWrapper>
   </footer>
 </template>
