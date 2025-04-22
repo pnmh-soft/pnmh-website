@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Nuxt",
+    "logo": "logos:nuxt-icon",
+    "description": "Framework Vue.js do tworzenia szybkich, nowoczesnych i SEO-friendly aplikacji webowych oraz stron internetowych."
+  },
+  {
+    "id": 2,
+    "name": "Laravel",
+    "logo": "logos:laravel",
+    "description": "Nowoczesny framework do tworzenia wydajnych, bezpiecznych i skalowalnych aplikacji webowych."
+  },
+  {
+    "id": 3,
+    "name": "TypeScript",
+    "logo": "logos:typescript-icon-round",
+    "description": "Nadzbiór JavaScriptu z typowaniem, który zwiększa niezawodność i czytelność kodu w dużych aplikacjach frontendowych i backendowych."
+  },
+  {
+    "id": 4,
+    "name": "Python",
+    "logo": "logos:python",
+    "description": "Język programowania idealny do szybkiego prototypowania, automatyzacji oraz tworzenia testów automatycznych."
+  }
+]

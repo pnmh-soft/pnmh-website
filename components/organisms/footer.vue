@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import Heading from "~/components/atoms/typography/heading.vue";
+import MainWrapper from "~/components/layouts/main-wrapper.vue";
+
+const currentYear = new Date().getFullYear();
 </script>
 
 <template>
-  <heading>Footer</heading>
+  <footer class="bg-slate-700 text-white">
+    <MainWrapper class="xl:p-14 py-10">
+      Copyright ©{{ currentYear }} <span class="font-black">pNmH-soft</span> {{ $t('copyrights') }}.
+    </MainWrapper>
+  </footer>
 </template>
-
-<style scoped>
-</style>
