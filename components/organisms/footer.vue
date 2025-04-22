@@ -10,8 +10,8 @@ const currentYear = new Date().getFullYear();
 <template>
   <footer class="bg-slate-700 text-white">
     <MainWrapper class="xl:p-14 py-10">
-      <TwoSideGrid>
-        <Container class="flex items-center text-sm">
+      <TwoSideGrid class="translate-y-2">
+        <Container class="flex items-center text-md">
           Copyright ©{{ currentYear }} <span class="font-black mx-2">pNmH-soft</span> {{ $t('copyrights') }}.
         </Container>
         <Container>
