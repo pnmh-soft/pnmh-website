@@ -5,5 +5,5 @@ defineProps<{
 </script>
 
 <template>
-  <UIcon :name="name" class="size-10"/>
+  <UIcon :name="name"/>
 </template>
