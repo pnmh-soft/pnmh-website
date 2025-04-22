@@ -10,7 +10,7 @@ import TechnologiesDescription from "~/components/organisms/technologies-descrip
   <HeroLayout>
     <Hero/>
   </HeroLayout>
-  <TwoSideGrid class="mb-64">
+  <TwoSideGrid class="xl:mb-64 mb-16">
     <TechnologiesDescription/>
     <Technologies/>
   </TwoSideGrid>

@@ -1,5 +1,5 @@
-<template>
-  <p class="text-sm text-left leading-7">
+x<template>
+  <p class="text-sm text-left">
     <slot/>
   </p>
 </template>
